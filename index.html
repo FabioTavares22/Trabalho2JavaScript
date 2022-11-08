@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupo G Copa do Mundo!!</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <h1 id="tit">Simulador de Classificação</h1>
+
+    <div id="apresent">
+        <p>Olá! Utilize nosso simulador de calssificação e obtenha resultados reais
+            que podem até te ajudar a ser bem sucessido em suas apostas.
+            Ao clicar no botão classificar será realizado o cálculo e os classificados serão exibidos. Os pontos são calculados conforme critério: Vitória = 3 Pontos, Empate = 1 Ponto.
+        </p>
+    </div>
+    <div id="butt1" onclick="compare1()"><button>Classificar</button></div>
+    <div>
+        <table class="rod">
+            <thead class="rod">
+                <tr>
+                    <th>Rodada 1</th>
+                    <th>Gols Feitos</th>
+                    <th class="vsr">&#127386;</th>
+                    <th>Gols Feitos</th>
+                    <th>Rodada 1</th>
+                    <th class="inexis"></th>
+                    <th>Colocado</th>
+                    <th>Pontos</th>
+                </tr>
+            </thead class="rod">
+            <tbody>
+                <tr>
+                    <td class="sui">SU<img src="image/Suíça.svg" alt="Bandeira Suíça" class="img"></td>
+                    <td><input type="number" class="inexis" id="gf1" value="suiça"></td>
+                    <td class="vsr">&#9917;</td>
+                    <td><input type="number" class="inexis" id="gf2" value="camaroes"></td>
+                    <td class="cam1">CAM<img src="image/Camarões.svg" alt="Bandeira Camarões" class="img1"></td>
+                    <td class="inexis"></td>
+                    <td id="resultado1"></td>
+                    <td id="ponto1"></td>
+                </tr>
+                <tr>
+                    <td class="bra">BR<img src="image/Brasil_rgYHF6Z.svg" alt="Bandeira do Brasil" class="img"></td>
+                    <td><input type="number" class="inexis" id="gf3" value="brasil"></td>
+                    <td class="vsr">&#9917;</td>
+                    <td><input type="number" class="inexis" id="gf4" value="servia"></td>
+                    <td class="ser1">SE<img src="image/Servia.svg" alt="Bandeira Sérvia" class="img"></td>
+                    <td class="inexis"></td>
+                    <td id="resultado2"></td>
+                    <td id="ponto2"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <table class="rod">
+            <thead class="rod">
+                <tr>
+                    <th>Rodada 2</th>
+                    <th>Gols Feitos</th>
+                    <th class="vsr">&#127386;</th>
+                    <th>Gols Feitos</th>
+                    <th>Rodada 2</th>
+                    <th class="inexis"></th>
+                    <th id="resultado3"></th>
+                    <th id="ponto3"></th>
+                </tr>
+            </thead>
+            <tbody class="rod">
+                <tr>
+                    <td class="cam">CAM<img src="image/Camarões.svg" alt="Bandeira Camarões" class="img1"></td>
+                    <td><input type="number" class="inexis" id="gf5" value="camaroes"></td>
+                    <td class="vsr">&#9917;</td>
+                    <td><input type="number" class="inexis" id="gf6" value="servia"></td>
+                    <td class="ser1">SE<img src="image/Servia.svg" alt="Bandeira Sérvia" class="img"></td>
+                    <td class="inexis"></td>
+                    <td id="resultado4"></td>
+                    <td id="ponto4"></td>
+                </tr>
+                <tr>
+                    <td class="bra">BR<img src="image/Brasil_rgYHF6Z.svg" alt="Bandeira do Brasil" class="img"></td>
+                    <td><input type="number" class="inexis" id="gf7" value="brasil"></td>
+                    <td class="vsr">&#9917;</td>
+                    <td><input type="number" class="inexis" id="gf8" value="suiça"></td>
+                    <td class="sui1">SU<img src="image/Suíça.svg" alt="Bandeira Suíça" class="img"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <table class="rod">
+            <thead class="rod">
+                <tr>
+                    <th>Rodada 3</th>
+                    <th>Gols Feitos</th>
+                    <th class="vsr">&#127386;</th>
+                    <th>Gols Feitos</th>
+                    <th>Rodada 3</th>
+                </tr>
+            </thead>
+            <tbody class="rod">
+                <tr>
+                    <td class="cam">CAM<img src="image/Camarões.svg" alt="Bandeira Camarões" class="img1"></td>
+                    <td><input type="number" class="inexis" id="gf9" value="camaroes"></td>
+                    <td class="vsr">&#9917;</td>
+                    <td><input type="number" class="inexis" id="gf10" value="brasil"></td>
+                    <td class="bra1">BR<img src="image/Brasil_rgYHF6Z.svg" alt="Bandeira do Brasil" class="img"></td>
+                </tr>
+                <tr>
+                    <td class="ser">SE<img src="image/Servia.svg" alt="Bandeira Sérvia" class="img"></td>
+                    <td><input type="number" class="inexis" id="gf11" value="servia"></td>
+                    <td class="vsr">&#9917;</td>
+                    <td><input type="number" class="inexis" id="gf12" value="suiça"></td>
+                    <td class="sui1">SU<img src="image/Suíça.svg" alt="Bandeira Suíça" class="img"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>

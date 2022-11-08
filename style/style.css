@@ -1,0 +1,89 @@
+#tit{
+    color: black;
+    text-align: center;
+    font-size: 35px;
+}
+th{
+    border: 1px solid black;
+    padding: 3px;
+    font-size: 20px;
+    width: 100px;
+}
+td{
+    font-size: 25px;
+    text-align: justify;
+    border: 1px solid black;
+}
+table{
+    border-collapse: collapse;
+}
+#butt1{
+    width: 750px;
+    position: absolute;
+    text-align: right;
+    bottom: 67%;
+}
+.inexis{
+    border: 0px;
+}
+.ajust{
+    width: 1px;
+}
+.vsr{
+    text-align: center;
+    border: 0px;
+}
+.img{
+    width: 50px;
+    height: 20px;
+    position: relative;
+    top: 3px;
+}
+.img1{
+    width: 40px;
+    height: 20px;
+    position: relative;
+    top: 5px;
+    left: 3px;
+}
+#apresent{
+    font-size: 20px;
+    text-align: left;
+    color: black
+}
+.sui{
+    color: red;
+    font-size: 25px;
+}
+.sui1{
+    color: red;
+    font-size: 25px;
+    text-align: right;
+}
+.cam{
+    color: yellow;
+    font-size: 25px;
+}
+.cam1{
+    color: yellow;
+    font-size: 25px;
+    text-align: right;
+}
+.bra{
+    color: green;
+    font-size: 25px;
+}
+.bra1{
+    color: green;
+    font-size: 25px;
+    text-align: right;
+}
+.ser{
+    color: blue;
+    font-size: 25px;
+}
+.ser1{
+    color: blue;
+    font-size: 25px;
+    text-align: right;
+}
